@@ -49,3 +49,50 @@ Para el proyecto del inventario en una tienda, creamos diferentes funciones dent
 5. Ver inventario completo
 6. Calcular valor total del inventario
 7. Salir
+
+### Si el usuario escoge la opción 1, se ve algo como esto:
+Elige una opción: 1
+Ingrese el nombre del producto: Arroz
+Ingrese el precio del producto: 3.500
+Ingrese la cantidad disponible: 60
+Producto 'Arroz' añadido correctamente.
+
+### Si elige la opción 2, se ve así:
+Elige una opción: 2
+Ingrese el nombre del producto a consultar: Arroz
+Arroz - Precio: 3.5 y la Cantidad: 60
+
+### Si elige la opción 3, se ve así:
+Elige una opción: 3
+Ingrese el nombre del producto: Arroz
+Ingrese el nuevo precio: 4.500
+Precio de 'Arroz' actualizado a 4.5.
+
+### Si elige la opción 4, se ve así:
+Elige una opción: 4
+Ingrese el nombre del producto a eliminar: Arroz
+Producto 'Arroz' eliminado del inventario.
+
+### Si elige la opción 5, se ve así:
+(Esto nos sucede porque decidimos borrar el unico producto que teniamos agregado, en este caso el arroz).
+Elige una opción: 5
+El inventario está vacío.
+
+(Imventario con productos)
+Elige una opción: 5
+
+Inventario actual:
+Arepas - Precio: 4.0 - Cantidad: 9
+Papas - Precio: 9.0 - Cantidad: 9
+
+### Si elige la opción 6, se ve así:
+Inventario actual:
+Arepas - Precio: 4.0 - Cantidad: 9
+Papas - Precio: 9.0 - Cantidad: 9
+
+### Si elige la opción 7, se ve así:
+Elige una opción: 7
+Llegaste al final de la tiendaElige una opción: 7
+Llegaste al final de la tienda
+
+
